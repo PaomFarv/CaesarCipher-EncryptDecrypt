@@ -1,25 +1,26 @@
-# Number-Guesser-Game
-It is a beginner-friendly Python game project for fun.
-A simple number guessing game where the computer tries to guess your number within a range you provide.
+# Caesar Cipher Encryptor and Decryptor
 
-## Features:
-- The computer makes a guess based on the range you set.
-- You give feedback on whether the guess is correct, too low, or too high.
-- The computer adjusts its guesses based on your feedback until it guesses your number.
+A simple Python tool for encrypting and decrypting text using the Caesar Cipher technique. This program supports both uppercase and lowercase letters and allows customizable shift values.
 
-## How to Play:
-1. **Start the Game**: Type `S` to start the game.
-2. **Set Range**: Enter the lowest and highest range for the guess.
-3. **Provide Feedback**: After each guess:
-   - Type `Y` if the guess is correct.
-   - Type `L` if the guess is too low.
-   - Type `H` if the guess is too high.
-4. **Play Again**: After a correct guess, type `A` to play again.
-5. **Quit**: Type `Q` to exit the game.
+## Features
+- **Encryption and Decryption**: Easily switch between modes to encode or decode messages.
+- **Case Sensitivity**: Maintains the original casing of letters.
+- **Shift Value**: Customizable shift for flexible encryption.
 
-## How to Run:
-1. Clone or download the repository.
-2. Run the Python script `NumberGuesser.py` using Python 3.x.
+## Usage
 
-```bash
-python NumberGuesser.py
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/CaesarCipher-EncryptDecrypt.git
+    cd CaesarCipher-EncryptDecrypt
+    ```
+
+2. **Run the program**:
+    ```bash
+    python caesar_cipher.py
+    ```
+
+3. **Follow the on-screen prompts**:
+   - Type `E` to encrypt a message.
+   - Type `D` to decrypt a message.
+   - Type `Q` or press Enter to quit.
